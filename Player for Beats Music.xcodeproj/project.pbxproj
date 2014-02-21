@@ -18,6 +18,8 @@
 		A8C5761518B7D8F5006FDA71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C575F418B7D8F5006FDA71 /* Cocoa.framework */; };
 		A8C5761D18B7D8F5006FDA71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8C5761B18B7D8F5006FDA71 /* InfoPlist.strings */; };
 		A8C5761F18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C5761E18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m */; };
+		A8C5762918B7DA79006FDA71 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C5762818B7DA79006FDA71 /* WebKit.framework */; };
+		A8C5762D18B7DE89006FDA71 /* PlayerLogo.psd in Resources */ = {isa = PBXBuildFile; fileRef = A8C5762C18B7DE89006FDA71 /* PlayerLogo.psd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		A8C5761A18B7D8F5006FDA71 /* Player for Beats MusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Player for Beats MusicTests-Info.plist"; sourceTree = "<group>"; };
 		A8C5761C18B7D8F5006FDA71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8C5761E18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player_for_Beats_MusicTests.m; sourceTree = "<group>"; };
+		A8C5762818B7DA79006FDA71 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A8C5762C18B7DE89006FDA71 /* PlayerLogo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayerLogo.psd; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C5762918B7DA79006FDA71 /* WebKit.framework in Frameworks */,
 				A8C575F518B7D8F5006FDA71 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +100,7 @@
 		A8C575F318B7D8F5006FDA71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8C5762818B7DA79006FDA71 /* WebKit.framework */,
 				A8C575F418B7D8F5006FDA71 /* Cocoa.framework */,
 				A8C5761318B7D8F5006FDA71 /* XCTest.framework */,
 				A8C575F618B7D8F5006FDA71 /* Other Frameworks */,
@@ -115,6 +121,7 @@
 		A8C575FA18B7D8F5006FDA71 /* Player for Beats Music */ = {
 			isa = PBXGroup;
 			children = (
+				A8C5762C18B7DE89006FDA71 /* PlayerLogo.psd */,
 				A8C5760618B7D8F5006FDA71 /* AppDelegate.h */,
 				A8C5760718B7D8F5006FDA71 /* AppDelegate.m */,
 				A8C5760918B7D8F5006FDA71 /* MainMenu.xib */,
@@ -234,6 +241,7 @@
 				A8C5760D18B7D8F5006FDA71 /* Images.xcassets in Resources */,
 				A8C5760518B7D8F5006FDA71 /* Credits.rtf in Resources */,
 				A8C5760B18B7D8F5006FDA71 /* MainMenu.xib in Resources */,
+				A8C5762D18B7DE89006FDA71 /* PlayerLogo.psd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

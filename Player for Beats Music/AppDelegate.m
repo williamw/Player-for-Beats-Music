@@ -7,12 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import <WebKit/WebKit.h>
+
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://listen.beatsmusic.com/"]];
+	[self.webView.mainFrame loadRequest:request];
 }
 
 @end
