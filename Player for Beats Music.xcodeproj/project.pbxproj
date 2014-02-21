@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C575F518B7D8F5006FDA71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C575F418B7D8F5006FDA71 /* Cocoa.framework */; };
+		A8C575FF18B7D8F5006FDA71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8C575FD18B7D8F5006FDA71 /* InfoPlist.strings */; };
+		A8C5760118B7D8F5006FDA71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C5760018B7D8F5006FDA71 /* main.m */; };
+		A8C5760518B7D8F5006FDA71 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A8C5760318B7D8F5006FDA71 /* Credits.rtf */; };
+		A8C5760818B7D8F5006FDA71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C5760718B7D8F5006FDA71 /* AppDelegate.m */; };
+		A8C5760B18B7D8F5006FDA71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C5760918B7D8F5006FDA71 /* MainMenu.xib */; };
+		A8C5760D18B7D8F5006FDA71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C5760C18B7D8F5006FDA71 /* Images.xcassets */; };
+		A8C5761418B7D8F5006FDA71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C5761318B7D8F5006FDA71 /* XCTest.framework */; };
+		A8C5761518B7D8F5006FDA71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C575F418B7D8F5006FDA71 /* Cocoa.framework */; };
+		A8C5761D18B7D8F5006FDA71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8C5761B18B7D8F5006FDA71 /* InfoPlist.strings */; };
+		A8C5761F18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C5761E18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C5761618B7D8F5006FDA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C575E918B7D8F5006FDA71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C575F018B7D8F5006FDA71;
+			remoteInfo = "Player for Beats Music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8C575F118B7D8F5006FDA71 /* Player for Beats Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Player for Beats Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C575F418B7D8F5006FDA71 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A8C575F718B7D8F5006FDA71 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A8C575F818B7D8F5006FDA71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A8C575F918B7D8F5006FDA71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8C575FC18B7D8F5006FDA71 /* Player for Beats Music-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Player for Beats Music-Info.plist"; sourceTree = "<group>"; };
+		A8C575FE18B7D8F5006FDA71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8C5760018B7D8F5006FDA71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8C5760218B7D8F5006FDA71 /* Player for Beats Music-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Player for Beats Music-Prefix.pch"; sourceTree = "<group>"; };
+		A8C5760418B7D8F5006FDA71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A8C5760618B7D8F5006FDA71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8C5760718B7D8F5006FDA71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8C5760A18B7D8F5006FDA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A8C5760C18B7D8F5006FDA71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8C5761218B7D8F5006FDA71 /* Player for Beats MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Player for Beats MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C5761318B7D8F5006FDA71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A8C5761A18B7D8F5006FDA71 /* Player for Beats MusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Player for Beats MusicTests-Info.plist"; sourceTree = "<group>"; };
+		A8C5761C18B7D8F5006FDA71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8C5761E18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player_for_Beats_MusicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C575EE18B7D8F5006FDA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C575F518B7D8F5006FDA71 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C5760F18B7D8F5006FDA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C5761518B7D8F5006FDA71 /* Cocoa.framework in Frameworks */,
+				A8C5761418B7D8F5006FDA71 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C575E818B7D8F5006FDA71 = {
+			isa = PBXGroup;
+			children = (
+				A8C575FA18B7D8F5006FDA71 /* Player for Beats Music */,
+				A8C5761818B7D8F5006FDA71 /* Player for Beats MusicTests */,
+				A8C575F318B7D8F5006FDA71 /* Frameworks */,
+				A8C575F218B7D8F5006FDA71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C575F218B7D8F5006FDA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C575F118B7D8F5006FDA71 /* Player for Beats Music.app */,
+				A8C5761218B7D8F5006FDA71 /* Player for Beats MusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C575F318B7D8F5006FDA71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C575F418B7D8F5006FDA71 /* Cocoa.framework */,
+				A8C5761318B7D8F5006FDA71 /* XCTest.framework */,
+				A8C575F618B7D8F5006FDA71 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C575F618B7D8F5006FDA71 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C575F718B7D8F5006FDA71 /* AppKit.framework */,
+				A8C575F818B7D8F5006FDA71 /* CoreData.framework */,
+				A8C575F918B7D8F5006FDA71 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A8C575FA18B7D8F5006FDA71 /* Player for Beats Music */ = {
+			isa = PBXGroup;
+			children = (
+				A8C5760618B7D8F5006FDA71 /* AppDelegate.h */,
+				A8C5760718B7D8F5006FDA71 /* AppDelegate.m */,
+				A8C5760918B7D8F5006FDA71 /* MainMenu.xib */,
+				A8C5760C18B7D8F5006FDA71 /* Images.xcassets */,
+				A8C575FB18B7D8F5006FDA71 /* Supporting Files */,
+			);
+			path = "Player for Beats Music";
+			sourceTree = "<group>";
+		};
+		A8C575FB18B7D8F5006FDA71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C575FC18B7D8F5006FDA71 /* Player for Beats Music-Info.plist */,
+				A8C575FD18B7D8F5006FDA71 /* InfoPlist.strings */,
+				A8C5760018B7D8F5006FDA71 /* main.m */,
+				A8C5760218B7D8F5006FDA71 /* Player for Beats Music-Prefix.pch */,
+				A8C5760318B7D8F5006FDA71 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8C5761818B7D8F5006FDA71 /* Player for Beats MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C5761E18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m */,
+				A8C5761918B7D8F5006FDA71 /* Supporting Files */,
+			);
+			path = "Player for Beats MusicTests";
+			sourceTree = "<group>";
+		};
+		A8C5761918B7D8F5006FDA71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C5761A18B7D8F5006FDA71 /* Player for Beats MusicTests-Info.plist */,
+				A8C5761B18B7D8F5006FDA71 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C575F018B7D8F5006FDA71 /* Player for Beats Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C5762218B7D8F5006FDA71 /* Build configuration list for PBXNativeTarget "Player for Beats Music" */;
+			buildPhases = (
+				A8C575ED18B7D8F5006FDA71 /* Sources */,
+				A8C575EE18B7D8F5006FDA71 /* Frameworks */,
+				A8C575EF18B7D8F5006FDA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Player for Beats Music";
+			productName = "Player for Beats Music";
+			productReference = A8C575F118B7D8F5006FDA71 /* Player for Beats Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8C5761118B7D8F5006FDA71 /* Player for Beats MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C5762518B7D8F5006FDA71 /* Build configuration list for PBXNativeTarget "Player for Beats MusicTests" */;
+			buildPhases = (
+				A8C5760E18B7D8F5006FDA71 /* Sources */,
+				A8C5760F18B7D8F5006FDA71 /* Frameworks */,
+				A8C5761018B7D8F5006FDA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C5761718B7D8F5006FDA71 /* PBXTargetDependency */,
+			);
+			name = "Player for Beats MusicTests";
+			productName = "Player for Beats MusicTests";
+			productReference = A8C5761218B7D8F5006FDA71 /* Player for Beats MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C575E918B7D8F5006FDA71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Bill Welense";
+				TargetAttributes = {
+					A8C5761118B7D8F5006FDA71 = {
+						TestTargetID = A8C575F018B7D8F5006FDA71;
+					};
+				};
+			};
+			buildConfigurationList = A8C575EC18B7D8F5006FDA71 /* Build configuration list for PBXProject "Player for Beats Music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8C575E818B7D8F5006FDA71;
+			productRefGroup = A8C575F218B7D8F5006FDA71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C575F018B7D8F5006FDA71 /* Player for Beats Music */,
+				A8C5761118B7D8F5006FDA71 /* Player for Beats MusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C575EF18B7D8F5006FDA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C575FF18B7D8F5006FDA71 /* InfoPlist.strings in Resources */,
+				A8C5760D18B7D8F5006FDA71 /* Images.xcassets in Resources */,
+				A8C5760518B7D8F5006FDA71 /* Credits.rtf in Resources */,
+				A8C5760B18B7D8F5006FDA71 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C5761018B7D8F5006FDA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C5761D18B7D8F5006FDA71 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C575ED18B7D8F5006FDA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C5760818B7D8F5006FDA71 /* AppDelegate.m in Sources */,
+				A8C5760118B7D8F5006FDA71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C5760E18B7D8F5006FDA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C5761F18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8C5761718B7D8F5006FDA71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C575F018B7D8F5006FDA71 /* Player for Beats Music */;
+			targetProxy = A8C5761618B7D8F5006FDA71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8C575FD18B7D8F5006FDA71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C575FE18B7D8F5006FDA71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8C5760318B7D8F5006FDA71 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C5760418B7D8F5006FDA71 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A8C5760918B7D8F5006FDA71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C5760A18B7D8F5006FDA71 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A8C5761B18B7D8F5006FDA71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C5761C18B7D8F5006FDA71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8C5762018B7D8F5006FDA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A8C5762118B7D8F5006FDA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A8C5762318B7D8F5006FDA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Player for Beats Music/Player for Beats Music-Prefix.pch";
+				INFOPLIST_FILE = "Player for Beats Music/Player for Beats Music-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8C5762418B7D8F5006FDA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Player for Beats Music/Player for Beats Music-Prefix.pch";
+				INFOPLIST_FILE = "Player for Beats Music/Player for Beats Music-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8C5762618B7D8F5006FDA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Player for Beats Music.app/Contents/MacOS/Player for Beats Music";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Player for Beats Music/Player for Beats Music-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Player for Beats MusicTests/Player for Beats MusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A8C5762718B7D8F5006FDA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Player for Beats Music.app/Contents/MacOS/Player for Beats Music";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Player for Beats Music/Player for Beats Music-Prefix.pch";
+				INFOPLIST_FILE = "Player for Beats MusicTests/Player for Beats MusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C575EC18B7D8F5006FDA71 /* Build configuration list for PBXProject "Player for Beats Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C5762018B7D8F5006FDA71 /* Debug */,
+				A8C5762118B7D8F5006FDA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C5762218B7D8F5006FDA71 /* Build configuration list for PBXNativeTarget "Player for Beats Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C5762318B7D8F5006FDA71 /* Debug */,
+				A8C5762418B7D8F5006FDA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8C5762518B7D8F5006FDA71 /* Build configuration list for PBXNativeTarget "Player for Beats MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C5762618B7D8F5006FDA71 /* Debug */,
+				A8C5762718B7D8F5006FDA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8C575E918B7D8F5006FDA71 /* Project object */;
+}
