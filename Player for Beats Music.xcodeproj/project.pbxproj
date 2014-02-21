@@ -20,6 +20,7 @@
 		A8C5761F18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C5761E18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m */; };
 		A8C5762918B7DA79006FDA71 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C5762818B7DA79006FDA71 /* WebKit.framework */; };
 		A8C5762D18B7DE89006FDA71 /* PlayerLogo.psd in Resources */ = {isa = PBXBuildFile; fileRef = A8C5762C18B7DE89006FDA71 /* PlayerLogo.psd */; };
+		A8C7F7BE18B8106900E46B67 /* PBMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C7F7BC18B8106900E46B67 /* PBMViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A8C5761E18B7D8F5006FDA71 /* Player_for_Beats_MusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player_for_Beats_MusicTests.m; sourceTree = "<group>"; };
 		A8C5762818B7DA79006FDA71 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A8C5762C18B7DE89006FDA71 /* PlayerLogo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayerLogo.psd; sourceTree = SOURCE_ROOT; };
+		A8C7F7BB18B8106900E46B67 /* PBMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBMViewController.h; sourceTree = "<group>"; };
+		A8C7F7BC18B8106900E46B67 /* PBMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBMViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				A8C5762C18B7DE89006FDA71 /* PlayerLogo.psd */,
 				A8C5760618B7D8F5006FDA71 /* AppDelegate.h */,
 				A8C5760718B7D8F5006FDA71 /* AppDelegate.m */,
+				A8C7F7BB18B8106900E46B67 /* PBMViewController.h */,
+				A8C7F7BC18B8106900E46B67 /* PBMViewController.m */,
 				A8C5760918B7D8F5006FDA71 /* MainMenu.xib */,
 				A8C5760C18B7D8F5006FDA71 /* Images.xcassets */,
 				A8C575FB18B7D8F5006FDA71 /* Supporting Files */,
@@ -260,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C7F7BE18B8106900E46B67 /* PBMViewController.m in Sources */,
 				A8C5760818B7D8F5006FDA71 /* AppDelegate.m in Sources */,
 				A8C5760118B7D8F5006FDA71 /* main.m in Sources */,
 			);
@@ -472,6 +478,7 @@
 				A8C5762418B7D8F5006FDA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8C5762518B7D8F5006FDA71 /* Build configuration list for PBXNativeTarget "Player for Beats MusicTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +487,7 @@
 				A8C5762718B7D8F5006FDA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

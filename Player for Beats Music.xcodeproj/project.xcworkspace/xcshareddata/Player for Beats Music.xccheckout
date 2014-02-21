@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C87E928-818A-4E82-A3F3-7CDA72B9E916</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Player for Beats Music</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58672F3B-F575-4C39-9842-5BD3F29491B4</key>
+		<string>https://github.com/williamw/Player-for-Beats-Music.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Player for Beats Music.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58672F3B-F575-4C39-9842-5BD3F29491B4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/williamw/Player-for-Beats-Music.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58672F3B-F575-4C39-9842-5BD3F29491B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58672F3B-F575-4C39-9842-5BD3F29491B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Player for Beats Music</string>
+		</dict>
+	</array>
+</dict>
+</plist>

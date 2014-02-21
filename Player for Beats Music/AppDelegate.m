@@ -12,8 +12,7 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://listen.beatsmusic.com/"]];
 	[self.webView.mainFrame loadRequest:request];
 }
