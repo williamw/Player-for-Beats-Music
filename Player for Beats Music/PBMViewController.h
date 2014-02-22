@@ -8,6 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class WebView;
+
 @interface PBMViewController : NSViewController
+
+@property (weak) IBOutlet WebView *webPlayer;
+@property (assign) IBOutlet NSWindow *window;
 
 @end

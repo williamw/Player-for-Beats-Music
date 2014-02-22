@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="3338"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PBMViewController"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Beats Music" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="dKH-hs-r0K">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="207" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
+            <view key="contentView" id="J6g-4y-yoy">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <webView id="0it-Zf-qWy">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
+                    </webView>
+                </subviews>
+            </view>
+        </window>
+    </objects>
+</document>

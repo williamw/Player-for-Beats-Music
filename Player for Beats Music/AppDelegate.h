@@ -12,7 +12,4 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (weak) IBOutlet WebView *webView;
-@property (assign) IBOutlet NSWindow *window;
-
 @end

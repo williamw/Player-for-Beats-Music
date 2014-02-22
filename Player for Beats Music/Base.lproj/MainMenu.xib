@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="3338"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -59,6 +58,16 @@
                                 <connections>
                                     <action selector="terminate:" target="-3" id="449"/>
                                 </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="File" id="vYO-ww-7l3">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="File" id="58S-4Y-djx">
+                        <items>
+                            <menuItem title="Sign Out" id="2UH-rU-0mp">
+                                <modifierMask key="keyEquivalentModifierMask"/>
                             </menuItem>
                         </items>
                     </menu>
@@ -137,21 +146,9 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="View" id="TPP-xe-EWE">
                         <items>
-                            <menuItem title="Back" keyEquivalent="[" id="dPe-5S-unG">
-                                <connections>
-                                    <action selector="goBack:" target="mdo-qw-eJT" id="WO7-8r-MBE"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Forward" keyEquivalent="]" id="6l3-aZ-yEV">
-                                <connections>
-                                    <action selector="goForward:" target="mdo-qw-eJT" id="fez-ex-Vxi"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Reload" keyEquivalent="r" id="nFz-mK-ezf">
-                                <connections>
-                                    <action selector="reload:" target="mdo-qw-eJT" id="J49-Zk-f5I"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Back" keyEquivalent="[" id="dPe-5S-unG"/>
+                            <menuItem title="Forward" keyEquivalent="]" id="6l3-aZ-yEV"/>
+                            <menuItem title="Reload" keyEquivalent="r" id="nFz-mK-ezf"/>
                         </items>
                     </menu>
                 </menuItem>
@@ -209,32 +206,7 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="Player for Beats Music" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="1024" height="650"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
-            <value key="minSize" type="size" width="1024" height="650"/>
-            <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="1024" height="650"/>
-                <autoresizingMask key="autoresizingMask"/>
-                <subviews>
-                    <webView id="mdo-qw-eJT">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="650"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
-                            <nil key="identifier"/>
-                        </webPreferences>
-                    </webView>
-                </subviews>
-            </view>
-        </window>
-        <customObject id="494" customClass="AppDelegate">
-            <connections>
-                <outlet property="webView" destination="mdo-qw-eJT" id="H1K-UZ-qmN"/>
-                <outlet property="window" destination="371" id="532"/>
-            </connections>
-        </customObject>
+        <customObject id="494" customClass="AppDelegate"/>
         <customObject id="420" customClass="NSFontManager"/>
     </objects>
 </document>
